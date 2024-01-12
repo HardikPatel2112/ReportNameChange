@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using System.Data;
 
 
+
 var builder = new ConfigurationBuilder()
            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 IConfigurationRoot config = builder.Build();
