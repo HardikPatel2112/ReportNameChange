@@ -13,7 +13,7 @@ var configBuilder = new ConfigurationBuilder().
 // get the section to read
 var configSection = configBuilder.GetSection("AppSettings");
 
-//sql ser test
+//sql ser test3
 string connectionString = configSection["ConnectionString"];
 
 
